@@ -1,40 +1,57 @@
-<h1>Nike Shoe Emporium</h1>
+  <h1>Nike Shoe Emporium</h1>
 
-Welcome to Nike Shoe Emporium, where style meets comfort! This eCommerce web app is your one-stop destination for premium Nike shoes. Explore our curated collection, discover the latest trends, and step into a world of iconic footwear.
+  <p>Welcome to Nike Shoe Emporium, where style meets comfort! This eCommerce web app is your one-stop destination
+    for premium Nike shoes. Explore our curated collection, discover the latest trends, and step into a world of
+    iconic footwear.</p>
 
-Features
-Extensive Collection: Browse through a diverse range of Nike shoes, from classic sneakers to the latest releases.
+  <h2>Features</h2>
 
-User-friendly Interface: Our intuitive interface makes navigation a breeze, ensuring a seamless shopping experience.
+  <ul>
+    <li><strong>Extensive Collection:</strong> Browse through a diverse range of Nike shoes, from classic sneakers
+      to the latest releases.</li>
+    <li><strong>User-friendly Interface:</strong> Our intuitive interface makes navigation a breeze, ensuring a
+      seamless shopping experience.</li>
+    <li><strong>Product Details:</strong> Get detailed insights into each pair of shoes, including brand, type,
+      price, and vibrant images.</li>
+    <li><strong>Dynamic Pricing:</strong> Enjoy competitive prices and special discounts on selected items,
+      ensuring you get the best value for your money.</li>
+    <li><strong>Responsive Design:</strong> Whether you're shopping on your desktop, tablet, or mobile device,
+      Nike Shoe Emporium adapts to provide an optimal viewing experience.</li>
+  </ul>
 
-Product Details: Get detailed insights into each pair of shoes, including brand, type, price, and vibrant images.
+  <h2>How to Get Started</h2>
 
-Dynamic Pricing: Enjoy competitive prices and special discounts on selected items, ensuring you get the best value for your money.
+  <ol>
+    <li>Clone the repository: <code>git clone https://github.com/your-username/nike-shoe-emporium.git</code></li>
+    <li>Navigate to the project directory: <code>cd nike-shoe-emporium</code></li>
+    <li>Install dependencies: <code>npm install</code></li>
+    <li>Run the app: <code>npm start</code></li>
+  </ol>
 
-Responsive Design: Whether you're shopping on your desktop, tablet, or mobile device, Nike Shoe Emporium adapts to provide an optimal viewing experience.
+  <h2>Technologies Used</h2>
 
-How to Get Started
-Clone the repository: git clone https://github.com/PrinceJetro/nike-shoe-emporium.git
-Navigate to the project directory: cd nike-shoe-emporium
-Install dependencies: npm install
-Run the app: npm start
-Technologies Used
-React.js
-Node.js
-Express.js
-MongoDB
-Bootstrap
-CSS3
-HTML5
-Contributing
-We welcome contributions from the community! If you find a bug, have a feature request, or want to contribute code, please open an issue or submit a pull request.
+  <ul>
+    <li>React.js</li>
+    <li>Node.js</li>
+    <li>Express.js</li>
+    <li>MongoDB</li>
+    <li>Bootstrap</li>
+    <li>CSS3</li>
+    <li>HTML5</li>
+  </ul>
 
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+  <h2>Contributing</h2>
 
-Contact
-Have questions or suggestions? Feel free to reach out to us at support@nikeshoeemporium.com.
+  <p>We welcome contributions from the community! If you find a bug, have a feature request, or want to
+    contribute code, please open an issue or submit a pull request.</p>
 
-Happy shopping!
+  <h2>License</h2>
 
-Customize this template by filling in the relevant details about your project. Add badges, GIFs, or screenshots to make your README visually appealing. Make sure to update the contact information, license details, and contribution guidelines according to your project's needs.
+  <p>This project is licensed under the MIT License - see the <a href="LICENSE.md">LICENSE.md</a> file for
+    details.</p>
+
+  <h2>Contact</h2>
+
+  <p>Have questions or suggestions? Feel free to reach out to us at <a href="mailto:support@nikeshoeemporium.com">support@nikeshoeemporium.com</a>.</p>
+
+  <p>Happy shopping!</p>
