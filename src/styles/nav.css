@@ -1,0 +1,10 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin:10px 0px 10px 0px ;
+}
+
+nav .fa-home, nav .fa-bell, nav .fa-heart, nav .fa-cart-shopping{
+    font-size: 40px;
+}

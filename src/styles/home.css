@@ -1,0 +1,95 @@
+.intro{
+    background-color: #90CAF9;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.intro_nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-bars{
+    font-size: 48px;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+.intro h1{
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 40px;
+}
+
+.intro p{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.intro input{
+    width: 90%;
+    height: 65px;
+    border-radius: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    
+}
+
+
+.collection_menu h1{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.categories, .collection{
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.categories div{
+    width: 100px;
+    border-radius: 30px;
+    background-color: #292929;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 36px;
+    border: 2px solid #292929;
+    display: inline-block;
+}
+
+
+.categories div:hover{
+    color:  #292929;
+    background-color: aliceblue;
+}
+
+
+.collection div{
+    border-radius: 30px;
+    color: aliceblue;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.collection{
+    margin-bottom: 10px;
+}
