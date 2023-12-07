@@ -32,9 +32,6 @@
 
   <ul>
     <li>React.js</li>
-    <li>Node.js</li>
-    <li>Express.js</li>
-    <li>MongoDB</li>
     <li>Bootstrap</li>
     <li>CSS3</li>
     <li>HTML5</li>
