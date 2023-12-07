@@ -37,16 +37,38 @@
     text-align: left;
 }
 
-.intro input{
-    width: 90%;
-    height: 65px;
-    border-radius: 45px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin: auto;
-    
+.search-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8%;
 }
 
+#search-bar {
+    position: relative;
+  }
+  
+  #search-input {
+    line-height: 2rem;
+    border-radius: 10px;
+    padding: 0.2rem 2rem;
+    font-size: 1.2rem;
+  }
+  
+  #search-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0.8rem;
+    padding: 0px 0.5rem;
+  }
+  
+  #mic-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0.8rem;
+    padding: 0px 0.5rem;
+  }
 
 .collection_menu h1{
     font-family: Poppins;

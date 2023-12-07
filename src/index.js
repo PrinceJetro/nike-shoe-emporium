@@ -22,7 +22,8 @@ function checkScreenWidth() {
     const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(
       <React.StrictMode>
-        <h1>This App is for mobile only </h1>
+        <h1>Exciting news!</h1>
+        <p>Nike Shoe Emporium's mobile experience is here. Browse, shop, and explore the latest Nike shoes effortlessly on your PHONE. Desktop design is in progress — stay tuned! </p>
       </React.StrictMode>
     );
     

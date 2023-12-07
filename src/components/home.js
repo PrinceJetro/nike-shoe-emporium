@@ -37,8 +37,14 @@ export default function Home(){
                 <p>Experience fashion with our shoe line</p>
 
 
-             <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-
+                <div className="search-div">
+                    <div id="search-bar">
+            <i id="search-icon" className="fa fa-search"></i>
+        <input id="search-input" placeholder="Search" />
+        <i id="mic-icon" className="fa fa-microphone"></i>
+        </div>
+  
+            </div>
             </div>
 
             <div className='collection_menu'>
