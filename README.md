@@ -49,6 +49,6 @@
 
   <h2>Contact</h2>
 
-  <p>Have questions or suggestions? Feel free to reach out to us at <a href="mailto:support@nikeshoeemporium.com">support@nikeshoeemporium.com</a>.</p>
+  <p>Have questions or suggestions? Feel free to reach out to us at <a href="mailto:adegbuyijehthah@gmail.com">support@nikeshoeemporium.com</a>.</p>
 
   <p>Happy shopping!</p>
