@@ -22,7 +22,7 @@
   <h2>How to Get Started</h2>
 
   <ol>
-    <li>Clone the repository: <code>git clone https://github.com/your-username/nike-shoe-emporium.git</code></li>
+    <li>Clone the repository: <code>git clone https://github.com/PrinceJetro/nike-shoe-emporium.git</code></li>
     <li>Navigate to the project directory: <code>cd nike-shoe-emporium</code></li>
     <li>Install dependencies: <code>npm install</code></li>
     <li>Run the app: <code>npm start</code></li>

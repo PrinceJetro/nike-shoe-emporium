@@ -10,7 +10,8 @@ import nike from "../images/nike.png"
 export default function Home(){
 
 
-        const [greet, setGreet] = useState("")
+        const [greet, setGreet] = useState("");
+        const [filter, setFilter] = useState([]);
         
         useEffect(() =>{
             const currentHour = new Date().getHours();
@@ -23,14 +24,30 @@ export default function Home(){
             }
         },[])
 
-      
+        const searchFunction = (event) => {
+            const searchTerm = event.target.value.toUpperCase();
+          
+            if (searchTerm) {
+              const filteredData = data.filter(item =>
+                item.brand.toUpperCase().includes(searchTerm)
+              );
+          
+              // Log or use the filteredData array as needed
+              console.log(event.target.value);
+              setFilter(filteredData)
+            } else {
+              console.log(`Search term must be at least 2 characters.`);
+              setFilter([])
+            }
+          };
+                
     return(
         <div className='container-fluid'>
             <div className='intro'>
                 <div className='intro_nav'>
                 <i class="fa fa-bars"></i>
-                <img src={nike} width={75} height={50}/>
-                    <img src='https://picsum.photos/50' className='avatar'/>
+                <img src={nike} width={75} height={50} alt='Nike Logo'/>
+                    <img src='https://picsum.photos/50' className='avatar' alt='avatar'/>
                 </div>
 
                 <h1> {greet } Michael </h1>
@@ -40,11 +57,23 @@ export default function Home(){
                 <div className="search-div">
                     <div id="search-bar">
             <i id="search-icon" className="fa fa-search"></i>
-        <input id="search-input" placeholder="Search" />
+        <input id="search-input" placeholder="Search" onChange={searchFunction} />
         <i id="mic-icon" className="fa fa-microphone"></i>
         </div>
-  
             </div>
+          
+            <div>
+                <ul>
+                {
+                filter.map((item, index, key) => 
+                <Link to={`/about/${item.brand}`} key={index}>
+                <li>{item.brand}</li>
+                </Link>
+                )
+            }
+                </ul>
+            </div>
+
             </div>
 
             <div className='collection_menu'>
@@ -55,9 +84,8 @@ export default function Home(){
                     <div><p>All</p></div>
                     <div><p>Running</p></div>
                     <div><p>Lifestyle</p></div>
-                    <div><p>Bla</p></div>
-                    <div><p>Bla</p></div>
-                    <div><p>Bla</p></div>
+                    <div><p>Outing</p></div>
+                    <div><p>Social</p></div>
                 </div>
 
             </div>

@@ -36,11 +36,15 @@
     letter-spacing: 0em;
     text-align: left;
 }
+.intro li{
+    list-style-type: none;
+}
 
 .search-div{
     display: flex;
     justify-content: center;
     margin-bottom: 8%;
+    width: 100%;
 }
 
 #search-bar {
