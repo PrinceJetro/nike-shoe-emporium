@@ -40,11 +40,16 @@
     list-style-type: none;
 }
 
+.intro li{
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: underline;
+}
 .search-div{
     display: flex;
     justify-content: center;
     margin-bottom: 8%;
-    width: 100%;
 }
 
 #search-bar {
@@ -56,6 +61,7 @@
     border-radius: 10px;
     padding: 0.2rem 2rem;
     font-size: 1.2rem;
+    width: 100%;
   }
   
   #search-icon {
@@ -104,8 +110,10 @@
 
 
 .categories div:hover{
-    color:  #292929;
-    background-color: aliceblue;
+    color:  black;
+    font-weight: 700;
+    background-color: #90CAF9;
+    border: 2px solid #292929;
 }
 
 
