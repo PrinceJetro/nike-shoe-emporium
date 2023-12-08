@@ -71,7 +71,7 @@ export default function Home(props){
           </div>
 
           <div className='display'>
-            <h1>{brand}</h1>
+            <h1 className="brand">{brand}</h1>
             <h6>Men's Shoe</h6>
             <img src={image} id='img' />
           </div>

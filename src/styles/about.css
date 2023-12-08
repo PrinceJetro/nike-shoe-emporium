@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    font-family: 'Roboto', sans-serif;
     padding: 0%;
 }
 
@@ -31,6 +32,14 @@ body{
 
 .actions div i{
     font-size: 36px;
+}
+.brand{
+    font-family: "Poppins";
+font-size: 26px;
+font-weight: 600;
+line-height: 39px;
+letter-spacing: 0em;
+
 }
 
 /* Add your styling for the heart icon */
@@ -74,6 +83,12 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;    
+    font-family: 'Poppins', sans-serif;
 }
 
 .color_div{
