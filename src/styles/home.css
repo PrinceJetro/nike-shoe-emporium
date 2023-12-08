@@ -90,9 +90,20 @@
 }
 
 .categories, .collection{
-    overflow: auto;
+    overflow-x: scroll; /* Add the ability to scroll */
     white-space: nowrap;
 }
+
+.categories::-webkit-scrollbar , .collection::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.categories, .collection {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 
 .categories div{
     width: 100px;

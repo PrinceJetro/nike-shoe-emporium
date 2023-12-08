@@ -40,6 +40,22 @@ export default function Home(props){
       const handleGoBack = () => {
         window.history.back(); // This will navigate back to the previous page in the browser's history.
       };
+      useEffect(() => {
+        const image = document.getElementById('img');
+    
+        // Add the return-to-normal class after a delay (e.g., 3000 milliseconds)
+        const delay = 1000; // Adjust the delay as needed
+        const timeoutId = setTimeout(() => {
+          image.classList.add('start');
+          const timeoutId = setTimeout(() => {
+            image.classList.add('finish');
+          }, delay);
+        }, delay);
+    
+        // Cleanup the timeout to avoid memory leaks
+        return () => clearTimeout(timeoutId);
+      }, []); // Empty dependency array ensures the effect runs only once on mount
+    
 
 
     return(
@@ -57,7 +73,7 @@ export default function Home(props){
           <div className='display'>
             <h1>{brand}</h1>
             <h6>Men's Shoe</h6>
-            <img src={image} />
+            <img src={image} id='img' />
           </div>
 
 

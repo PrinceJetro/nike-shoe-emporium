@@ -52,12 +52,23 @@ body{
 .display img{
     width: 75%;
     margin-top: 20px;
-    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    transition: transform 2.3s ease; /* Add a smooth transition effect */
 }
   
 .display img:hover {
     transform: scale(1.5); /* Increase the scale (zoom) on hover */
   }
+
+
+
+ .start{
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    transform: scale(1.5); /* Increase the scale (zoom) on hover */
+}
+.finish{
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    transform: scale(1); /* Increase the scale (zoom) on hover */
+}
 
 .price_div{
     display: flex;
