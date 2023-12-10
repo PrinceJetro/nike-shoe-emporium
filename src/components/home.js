@@ -81,11 +81,11 @@ export default function Home(){
 
                 <div className='categories'>
                 
-                    <div><p>All</p></div>
-                    <div><p>Running</p></div>
-                    <div><p>Lifestyle</p></div>
-                    <div><p>Outing</p></div>
-                    <div><p>Social</p></div>
+                    <div className='p'><p>All</p></div>
+                    <div className='p'><p>Running</p></div>
+                    <div className='p'><p>Lifestyle</p></div>
+                    <div className='p'><p>Outing</p></div>
+                    <div className='p'><p>Social</p></div>
                 </div>
 
             </div>

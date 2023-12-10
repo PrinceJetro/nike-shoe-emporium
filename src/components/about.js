@@ -93,7 +93,7 @@ export default function Home(props){
           </div>
 
           <div className='collection_menu1'>
-                <div className='categories'>
+                <div className='categories1'>
                     <div><p>38.5</p></div>
                     <div><p>40.5</p></div>
                     <div><p>41.5</p></div>

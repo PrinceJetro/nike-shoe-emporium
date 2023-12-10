@@ -122,17 +122,18 @@ letter-spacing: 0em;
     margin-bottom: 50px;
 }
 
-.categories{
+.categories1{
     overflow: auto;
     white-space: nowrap;
     margin-top: 20px;
     padding-left: 20px;
 }
 
-.categories div{
+.categories1 div{
     width: 100px;
     border-radius: 30px;
     color: aliceblue;
+    background-color: #292929;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,7 +145,7 @@ letter-spacing: 0em;
 }
 
 
-.categories div:hover{
+.categories1 div:hover{
     border: 2px solid white;
     opacity: 0.5; 
 }
