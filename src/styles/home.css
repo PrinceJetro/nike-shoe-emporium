@@ -13,7 +13,7 @@
 
 
 .fa-bars{
-    font-size: 48px;
+    font-size: 42px;
     margin-left: 5px;
 }
 
@@ -112,8 +112,6 @@
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
-
-
 
 .categories div{
     width: 100px;

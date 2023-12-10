@@ -5,7 +5,7 @@ import Product from "./product";
 import data from './data';
 import Nav from './nav';
 import nike from "../images/nike.png"
-
+import ava from "../images/ava.png"
 
 export default function Home(){
 
@@ -47,7 +47,7 @@ export default function Home(){
                 <div className='intro_nav'>
                 <i class="fa fa-bars"></i>
                 <img src={nike} width={75} height={50} alt='Nike Logo'/>
-                    <img src='https://picsum.photos/50' className='avatar' alt='avatar'/>
+                    <img src={ava} className='avatar' alt='avatar'/>
                 </div>
 
                 <h1> {greet } Michael </h1>
