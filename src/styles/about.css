@@ -144,6 +144,21 @@ letter-spacing: 0em;
     margin-right: 10px;
 }
 
+.categories1{
+    overflow-x: scroll; /* Add the ability to scroll */
+    white-space: nowrap;
+}
+
+.categories1::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.categories1 {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 
 .categories1 div:hover{
     border: 2px solid white;
